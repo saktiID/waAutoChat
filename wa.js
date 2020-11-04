@@ -3,7 +3,7 @@
 
 
 /* 
-@tool       : Chat WhatsApp Boomber
+@tool       : AutoChat WhatsApp
 @version    : 1.0
 @date       : 03/11/2020
 @author     : RomoSakti
