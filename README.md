@@ -21,3 +21,5 @@ silahkan pelajari tentang [VNC](https://en.wikipedia.org/wiki/Virtual_Network_Co
 * `var count` // untuk jumlah pesan yang akan dikirim (untuk versi ini pengiriman masih dengan berkala)
 * `var int` // untuk interval kecepatan dalam satuan milisecond
 
+### Class HTML
+Memungkinkan terdapat perbedaan class html pada setiap akun atau juga bisa dikarenakan adanya update dari WhasApp Web
