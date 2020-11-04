@@ -22,4 +22,4 @@ silahkan pelajari tentang [VNC](https://en.wikipedia.org/wiki/Virtual_Network_Co
 * `var int` // untuk interval kecepatan dalam satuan milisecond
 
 ### Class HTML
-Memungkinkan terdapat perbedaan class html pada setiap akun atau juga bisa dikarenakan adanya update dari WhasApp Web
+Memungkinkan terdapat perbedaan class html pada setiap akun atau juga bisa dikarenakan adanya update dari WhasApp Web, hal ini menyebabkan tidak bisa berjalannya tool, silahkan pelajari tentang class HTML dan DOM pada javascript untuk mengganti class yang ada.
