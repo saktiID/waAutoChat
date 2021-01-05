@@ -1,23 +1,8 @@
 
-/* HANYA UNTUK PC / DESKTOP */
-
-
-/* 
-@tool       : AutoChat WhatsApp
-@version    : 1.0
-@date       : 03/11/2020
-@author     : RomoSakti
-@match      : https://web.whatsapp.com/
-@phone      : 085607369678 (jangan spam!)
-*/
-
-
-
-
 /*================[konfigurasi pengguna]================*/
-var pesan = "iki isi pesan";        // isi pesan
-var count = 50;                      // jumlah
-var int = 1000;                      // kecepatan milisecond
+var pesan = "Isi ke-";        // isi pesan
+var count = 5;                      // jumlah
+var int = 100;                      // kecepatan milisecond
 /*======================================================*/
 
 
@@ -25,6 +10,9 @@ var int = 1000;                      // kecepatan milisecond
 
 /*=======================[script]=======================*/
 var x = 0;
+var i = 1;
+var kotakPesan = "div._2HE1Z._1hRBM div._1awRl";	// sesuaikan versi class
+var tombol = "button._2Ujuu";				// sesuaikan versi class
 if (x < count) {
 
     var timer = setInterval('kirim(pesan)', int);
@@ -32,10 +20,10 @@ if (x < count) {
     function kirim(t) {
         window.InputEvent = window.Event || window.InputEvent;
         var event = new InputEvent('input', { bubbles: true });
-        var textbox = document.querySelector('div._2FVVk._2UL8j div._3FRCZ');
-        textbox.textContent = t;
+        var textbox = document.querySelector(kotakPesan);
+        textbox.textContent = t + i++;
         textbox.dispatchEvent(event);
-        document.querySelector('button._1U1xa').click();
+        document.querySelector(tombol).click();
         x++;
         console.log(x);
 
